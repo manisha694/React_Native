@@ -1,20 +1,13 @@
+import { View, Text } from 'react-native'
+import React from 'react'
 
-import React from 'react';
-import { View, Text, Button, Alert } from 'react-native';
 
 const App = () => {
-
-const handlePress=()=>{
-  Alert.alert('Button Pressed');
-}
-
   return (
     <View>
-      <Text style={{ fontSize: 30 }}>App</Text>
-            <Text style={{ fontSize: 30 }}>Manisha</Text>
-<Button title="Press Me" onPress={handlePress} />
+      <Text>App</Text>
     </View>
   )
 }
 
-export default App;
+export default App
