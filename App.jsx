@@ -1,13 +1,14 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+/* eslint-disable react-native/no-inline-styles */
 
-
+import React from 'react';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import SectionListScreen from './src/components/SectionListScreen';
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
-  )
-}
+    <SafeAreaView style={{ flex: 1 }}>
+      <SectionListScreen/>
+    </SafeAreaView>
+  );
+};
 
-export default App
+export default App;
