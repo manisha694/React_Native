@@ -1,13 +1,22 @@
-/* eslint-disable react-native/no-inline-styles */
 
 import React from 'react';
+import {Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import SectionListScreen from './src/components/SectionListScreen';
+import Updatinguseeffect from './src/components/Updatinguseeffect'
+// import UseEffectHook from './src/components/UseEffectHook';
+
+
+
+
+
 const App = () => {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <SectionListScreen/>
+    <SafeAreaView>
+<Text>Hello</Text>
+    {/* <UseEffectHook /> */}
+    < Updatinguseeffect/>
     </SafeAreaView>
+
   );
 };
 
